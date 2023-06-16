@@ -7,8 +7,16 @@ variable "rg_location" {
   type        = string
   description = "RG Location"
 }
-
-variable "subscription" {
-  type        = string
-  description = "Subscription que sera usada"
+variable "alias" {
+    type = string
+    description = "apelido da assinatura"
+}
+variable "subscription_name" {
+    type = string
+    description = "Nome da Subscripstion"
+}
+variable "subscription_id" {
+    type = string
+    description = "Subscription ID"
+  
 }
